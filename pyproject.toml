@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jpyttm"
-version = "0.1.0"
+version = "0.1.1"
 description = "Historical JPY TTM rates"
 authors = ["Alex <globophobe@gmail.com>"]
 readme = "README.md"
@@ -12,16 +12,16 @@ classifiers = ["Operating System :: OS Independent"]
 packages = [{ include = "jpyttm" }]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-requests = "^2.27.1"
-pytz = "^2021.3"
-beautifulsoup4 = "^4.10.0"
-lxml = "^4.7.1"
+python = ">=3.8"
+beautifulsoup4 = "*"
+lxml = "*"
+pytz = "*"
+requests = "*"
 
 [tool.poetry.dev-dependencies]
-black = "^22.1.0"
-isort = "^5.10.1"
-flake8 = "^4.0.1"
+black = "*"
+isort = "*"
+flake8 = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
